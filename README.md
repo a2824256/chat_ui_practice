@@ -4,4 +4,4 @@
 
 ## 截图
 
-<img scr="https://github.com/a2824256/chat_ui_practice/blob/master/screenshot.jpg" width="400" height="700" />
+<img src="https://github.com/a2824256/chat_ui_practice/blob/master/screenshot.jpg" width="400" height="700" />
