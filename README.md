@@ -10,13 +10,11 @@
         <!-- Show a splash screen on the activity. Automatically removed when
              Flutter draws its first frame -->
         <item name="android:windowBackground">@drawable/launch_background</item>
-
     </style>
 </resources>`
 
 在main.dart文件设置
 `import 'package:flutter/services.dart';
-
 void main() {
   runApp(MyApp());
   if (Platform.isAndroid) {
