@@ -3,8 +3,9 @@
 仿微信UI练习，基于Google Flutter框架
 
 # Android实现与微信一样的状态栏与底部栏
-在android平台的style.xml文件将主题设置为Theme.Light.NoTitleBar，风格只有Black和Light两种黑底白字和白底黑字
-```<?xml version="1.0" encoding="utf-8"?>
+在Android平台的style.xml文件将主题设置为Theme.Light.NoTitleBar，风格只有Black和Light两种黑底白字和白底黑字
+```
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <style name="LaunchTheme" parent="@android:style/Theme.Light.NoTitleBar">
         <!-- Show a splash screen on the activity. Automatically removed when
@@ -12,9 +13,11 @@
         <item name="android:windowBackground">@drawable/launch_background</item>
     </style>
 </resources>
+```
 
 在main.dart文件设置
-```import 'package:flutter/services.dart';
+```
+import 'package:flutter/services.dart';
 void main() {
   runApp(MyApp());
   if (Platform.isAndroid) {
@@ -25,6 +28,7 @@ void main() {
         statusBarColor: Color(0XEEEEEE))); // status bar color
   }
 }
+```
 
 # 使用插件
 角标: badges: ^1.1.0
